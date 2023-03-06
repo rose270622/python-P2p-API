@@ -1,0 +1,11 @@
+{
+  "test_register_data": [
+    {"desc": "填写必填参数,注册成功","phone": "13636226124","pwd": "test123","imgVerifyCode": "8888","phone_code": "666666","dy_server":"on","invite_phone": "","status_code": 200,"status": 200,"description":"注册成功"},
+    {"desc": "填写全部参数,注册成功","phone": "13636226125","pwd": "test123","imgVerifyCode": "8888","phone_code": "666666","dy_server":"on","invite_phone": "18371912089","status_code": 200,"status": 200,"description":"注册成功"},
+    {"desc": "图片验证码错误,注册失败","phone": "13636226126","pwd": "test123","imgVerifyCode": "error","phone_code": "666666","dy_server":"on","invite_phone": "","status_code": 200,"status": 100,"description":"图片验证码错误"},
+    {"desc": "短信验证码错误,注册失败","phone": "136362261126","pwd": "test123","imgVerifyCode": "8888","phone_code": "error","dy_server":"on","invite_phone": "","status_code": 200,"status": 100,"description":"验证码错误"},
+    {"desc": "手机已存在,注册失败","phone": "13636226112","pwd": "test123","imgVerifyCode": "8888","phone_code": "666666","dy_server":"on","invite_phone": "","status_code": 200,"status": 100,"description":"手机已存在!"},
+    {"desc": "密码为空,注册失败","phone": "13636226127","pwd": " ","imgVerifyCode": "8888","phone_code": "666666","dy_server":"on","invite_phone": "","status_code": 200,"status": 100,"description":"密码不能为空!"},
+    {"desc": "未同意条款,注册失败","phone": "13636226128","pwd": "test123","imgVerifyCode": "8888","phone_code": "666666","dy_server":"off","invite_phone": "","status_code": 200,"status": 100,"description":"请同意我们的条款"}
+  ]
+}

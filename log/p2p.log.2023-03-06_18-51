@@ -1,0 +1,12 @@
+2023-03-06 18:50:23,896 INFO [root] [__init__.py(<module>:5)] - info
+2023-03-06 18:50:23,897 ERROR [root] [__init__.py(<module>:6)] - error
+2023-03-06 18:50:24,346 INFO [root] [login_parameter.py(test002_get_sms_code:56)] - get_sms_code={'status': 100, 'description': '图片验证码错误'}
+2023-03-06 18:50:24,464 INFO [root] [login_parameter.py(test003_register:73)] - get_sms_code={'status': 100, 'description': '图片验证码错误'}
+2023-03-06 18:50:25,101 INFO [root] [login_parameter.py(test016_login_success:205)] - login_success={'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2023-03-06 18:50:25,182 INFO [root] [login_parameter.py(test017_user_not_exist:210)] - login_success={'status': 100, 'description': '用户不存在'}
+2023-03-06 18:50:25,257 INFO [root] [login_parameter.py(test018_pwd_null:215)] - login_success={'status': 100, 'description': '密码不能为空'}
+2023-03-06 18:50:26,337 INFO [root] [login_parameter.py(test019_pwd_error:220)] - login_success={'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2023-03-06 18:50:26,380 INFO [root] [login_parameter.py(test019_pwd_error:223)] - login_success={'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2023-03-06 18:50:26,426 INFO [root] [login_parameter.py(test019_pwd_error:226)] - login_success={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2023-03-06 18:50:26,470 INFO [root] [login_parameter.py(test019_pwd_error:229)] - login_success={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2023-03-06 18:51:26,523 INFO [root] [login_parameter.py(test019_pwd_error:233)] - login_success={'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}

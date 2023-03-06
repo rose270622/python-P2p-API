@@ -1,0 +1,20 @@
+2023-03-06 16:15:35,847 INFO [root] [__init__.py(<module>:5)] - info
+2023-03-06 16:15:35,847 ERROR [root] [__init__.py(<module>:6)] - error
+2023-03-06 16:15:37,066 INFO [root] [login_parameter.py(test002_get_sms_code:55)] - get_sms_code={'status': 200, 'description': '短信发送成功'}
+2023-03-06 16:15:37,201 INFO [root] [login_parameter.py(test002_get_sms_code:55)] - get_sms_code={'status': 100, 'description': '图片验证码错误'}
+2023-03-06 16:15:37,325 INFO [root] [login_parameter.py(test002_get_sms_code:55)] - get_sms_code={'status': 100}
+2023-03-06 16:15:37,491 INFO [root] [login_parameter.py(test002_get_sms_code:55)] - get_sms_code={'status': 100, 'description': '图片验证码错误'}
+2023-03-06 16:15:38,120 INFO [root] [login_parameter.py(test016_login_success:186)] - login_success={'status': 100, 'description': '用户不存在'}
+2023-03-06 16:15:38,203 INFO [root] [login_parameter.py(test017_user_not_exist:191)] - login_success={'status': 100, 'description': '用户不存在'}
+2023-03-06 16:15:38,279 INFO [root] [login_parameter.py(test018_pwd_null:196)] - login_success={'status': 100, 'description': '密码不能为空'}
+2023-03-06 16:15:38,353 INFO [root] [login_parameter.py(test019_pwd_error:201)] - login_success={'status': 100, 'description': '用户不存在'}
+2023-03-06 16:19:50,201 INFO [root] [__init__.py(<module>:5)] - info
+2023-03-06 16:19:50,201 ERROR [root] [__init__.py(<module>:6)] - error
+2023-03-06 16:19:50,872 INFO [root] [login_parameter.py(test002_get_sms_code:55)] - get_sms_code={'status': 200, 'description': '短信发送成功'}
+2023-03-06 16:19:50,996 INFO [root] [login_parameter.py(test002_get_sms_code:55)] - get_sms_code={'status': 100, 'description': '图片验证码错误'}
+2023-03-06 16:19:51,119 INFO [root] [login_parameter.py(test002_get_sms_code:55)] - get_sms_code={'status': 100}
+2023-03-06 16:19:51,231 INFO [root] [login_parameter.py(test002_get_sms_code:55)] - get_sms_code={'status': 100, 'description': '图片验证码错误'}
+2023-03-06 16:19:51,872 INFO [root] [login_parameter.py(test016_login_success:186)] - login_success={'status': 100, 'description': '用户不存在'}
+2023-03-06 16:19:51,948 INFO [root] [login_parameter.py(test017_user_not_exist:191)] - login_success={'status': 100, 'description': '用户不存在'}
+2023-03-06 16:19:52,022 INFO [root] [login_parameter.py(test018_pwd_null:196)] - login_success={'status': 100, 'description': '密码不能为空'}
+2023-03-06 16:19:52,101 INFO [root] [login_parameter.py(test019_pwd_error:201)] - login_success={'status': 100, 'description': '用户不存在'}

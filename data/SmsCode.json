@@ -1,0 +1,11 @@
+{
+  "test_get_sms_code": [
+    {"desc":"输入必填项,获取短信验证码成功","phone":"13636226110","imgVerifyCode":"8888","type":"reg","status_code": 200,"status": 200,"description": "短信发送成功"},
+    {"desc":"不获取图片验证码.获取短信验失败","phone":"13636226111","imgVerifyCode":" ","type":"reg","status_code": 200,"status": 100,"description": "图片验证码错误"},
+    {"desc":"不输入手机号.获取短信验失败","phone":" ","imgVerifyCode":"8888 ","type":"reg","status_code": 200,"status": 100},
+    {"desc":"输入错误图片验证码.获取短信验失败","phone":"13636226111 ","imgVerifyCode":"88 ","type":"reg","status_code": 200,"status": 100,"description": "图片验证码错误"}
+  ]
+
+
+
+}
